@@ -1,3 +1,8 @@
+.vscode
+api_keys.py
+get_data.ipynb
+news.sqlite3-shm
+news.sqlite3-wal
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
