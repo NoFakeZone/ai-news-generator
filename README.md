@@ -19,6 +19,7 @@ This repository contains the following key files and directories:
 *   `generate_articles.py`: A Python script demonstrating how to connect to the Google Gemini API (e.g., `gemini-1.5-flash`) using LangChain for text generation.
 *   `get_topics.ipynb`: A Jupyter Notebook that reads unique articles from the database and prompts a Gemini model to analyze the text, identifying the event described, the general topic, and the article's length. The results are parsed and exported to JSON files.
 *   `change_sqlite_to_json.ipynb`: A Jupyter Notebook for converting SQLite database records into JSON format.
+*   `generate_gemini.ipynb`: A Jupyter Notebook that reads processed article topics and uses a Gemini model to generate new articles based on those topics, saving the output to model-specific directories.
 
 ### Model-Specific Output Directories
 The project evaluates and stores processing outputs from different versions of the Gemini models in the following directories:
